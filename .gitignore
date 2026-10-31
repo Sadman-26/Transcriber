@@ -1,0 +1,35 @@
+# Virtual environment
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Secrets & environment variables
+.env
+.env.local
+.env.*.local
+
+# Audio recordings
+*.m4a
+*.mp3
+*.wav
+*.flac
+*.aac
+*.ogg
+*.opus
+
+# Generated output files
+transcript.txt
+meeting_minutes.md
+
+# Operating System & IDE metadata
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
